@@ -1,0 +1,990 @@
+1. chkdsk
+C:\Windows\system32>chkdsk
+The type of the file system is NTFS.
+
+WARNING!  /F parameter not specified.
+Running CHKDSK in read-only mode.
+
+Stage 1: Examining basic file system structure ...
+  921088 file records processed.
+File verification completed.
+ Phase duration (File record verification): 19.87 seconds.
+  10788 large file records processed.
+ Phase duration (Orphan file record recovery): 0.00 milliseconds.
+  0 bad file records processed.
+ Phase duration (Bad file record checking): 0.40 milliseconds.
+
+Stage 2: Examining file name linkage ...
+  3353 reparse records processed.
+  1273788 index entries processed.
+Index verification completed.
+ Phase duration (Index verification): 1.27 minutes.
+  0 unindexed files scanned.
+ Phase duration (Orphan reconnection): 10.67 seconds.
+  0 unindexed files recovered to lost and found.
+ Phase duration (Orphan recovery to lost and found): 0.43 milliseconds.
+  3353 reparse records processed.
+ Phase duration (Reparse point and Object ID verification): 22.75 milliseconds.
+
+Stage 3: Examining security descriptors ...
+Security descriptor verification completed.
+ Phase duration (Security descriptor verification): 81.32 milliseconds.
+  176351 data files processed.
+ Phase duration (Data attribute verification): 0.54 milliseconds.
+CHKDSK is verifying Usn Journal...
+  41694752 USN bytes processed.
+Usn Journal verification completed.
+ Phase duration (USN journal verification): 261.23 milliseconds.
+
+Windows has scanned the file system and found no problems.
+No further action is required.
+
+ 137059327 KB total disk space.
+  85101992 KB in 577038 files.
+    354232 KB in 176352 indexes.
+         0 KB in bad sectors.
+   1037343 KB in use by the system.
+     65536 KB occupied by the log file.
+  50565760 KB available on disk.
+
+      4096 bytes in each allocation unit.
+  34264831 total allocation units on disk.
+  12641440 allocation units available on disk.
+Total duration: 1.79 minutes (107710 ms).
+
+
+
+
+2.Color
+C:\Windows\system32>color 4 (Warna Teks berubah menjadi merah)
+
+
+
+
+3.ipconfig
+C:\Windows\system32>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::ccf8:3f46:4a51:241%18
+   IPv4 Address. . . . . . . . . . . : 192.168.1.15
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+
+
+4.ipconfig /all
+C:\Windows\system32>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-H27DKQS
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Mixed
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller #2
+   Physical Address. . . . . . . . . : 08-9E-01-27-52-44
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 0A-ED-B9-FD-1F-1D
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 0A-ED-B9-FD-17-1D
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Broadcom 802.11n Network Adapter
+   Physical Address. . . . . . . . . : 08-ED-B9-FD-1F-1D
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::ccf8:3f46:4a51:241%18(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.1.15(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 12 August 2022 23:35:35
+   Lease Expires . . . . . . . . . . : 13 August 2022 23:35:35
+   Default Gateway . . . . . . . . . : 192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 235466169
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-9A-A5-36-08-9E-01-27-52-44
+   DNS Servers . . . . . . . . . . . : 192.168.1.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 08-ED-B9-FD-1F-1E
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+C:\Windows\system32>C:\Windows\system32>ipconfig
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>Windows IP Configuration
+'Windows' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>
+C:\Windows\system32>Ethernet adapter Ethernet 2:
+'Ethernet' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>   Media State . . . . . . . . . . . : Media disconnected
+'Media' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Connection-specific DNS Suffix  . :
+'Connection-specific' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>Wireless LAN adapter Local Area Connection* 1:
+'Wireless' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>   Media State . . . . . . . . . . . : Media disconnected
+'Media' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Connection-specific DNS Suffix  . :
+'Connection-specific' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>Wireless LAN adapter Local Area Connection* 10:
+'Wireless' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>   Media State . . . . . . . . . . . : Media disconnected
+'Media' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Connection-specific DNS Suffix  . :
+'Connection-specific' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>Wireless LAN adapter Wi-Fi:
+'Wireless' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>   Connection-specific DNS Suffix  . :
+'Connection-specific' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Link-local IPv6 Address . . . . . : fe80::ccf8:3f46:4a51:241%18
+'Link-local' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   IPv4 Address. . . . . . . . . . . : 192.168.1.15
+'IPv4' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+'Subnet' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Default Gateway . . . . . . . . . : 192.168.1.1
+'Default' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>Ethernet adapter Bluetooth Network Connection:
+'Ethernet' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>   Media State . . . . . . . . . . . : Media disconnected
+'Media' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Connection-specific DNS Suffix  . :C:\Windows\system32>ipconfig
+'Connection-specific' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>Windows IP Configuration
+'Windows' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>
+C:\Windows\system32>Ethernet adapter Ethernet 2:
+'Ethernet' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>   Media State . . . . . . . . . . . : Media disconnected
+'Media' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Connection-specific DNS Suffix  . :
+'Connection-specific' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>Wireless LAN adapter Local Area Connection* 1:
+'Wireless' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>   Media State . . . . . . . . . . . : Media disconnected
+'Media' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Connection-specific DNS Suffix  . :
+'Connection-specific' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>Wireless LAN adapter Local Area Connection* 10:
+'Wireless' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>   Media State . . . . . . . . . . . : Media disconnected
+'Media' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Connection-specific DNS Suffix  . :
+'Connection-specific' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>Wireless LAN adapter Wi-Fi:
+'Wireless' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>   Connection-specific DNS Suffix  . :
+'Connection-specific' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Link-local IPv6 Address . . . . . : fe80::ccf8:3f46:4a51:241%18
+'Link-local' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   IPv4 Address. . . . . . . . . . . : 192.168.1.15
+'IPv4' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+'Subnet' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Default Gateway . . . . . . . . . : 192.168.1.1
+'Default' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>Ethernet adapter Bluetooth Network Connection:
+'Ethernet' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>
+C:\Windows\system32>   Media State . . . . . . . . . . . : Media disconnected
+'Media' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>   Connection-specific DNS Suffix  . :
+
+
+
+5. ipconfig /flushdns
+C:\Windows\system32>ipconfig /flushdns
+
+Windows IP Configuration
+
+Successfully flushed the DNS Resolver Cache.
+
+
+
+6.ipconfig /showclassid Local*
+C:\Windows\system32>ipconfig /showclassid Local*
+
+Windows IP Configuration
+
+Unable to modify the DHCPv4 class id for adapter Local Area Connection* 1: The system cannot find the file specified.
+
+Unable to modify the DHCPv4 class id for adapter Local Area Connection* 10: The system cannot find the file specified.
+
+
+C:\Windows\system32>
+
+
+
+7.netstat -e -s
+C:\Windows\system32>netstat -e -s
+Interface Statistics
+
+                           Received            Sent
+
+Bytes                    1131485490        77911398
+Unicast packets             1015434          337800
+Non-unicast packets           21960            2478
+Discards                          0               0
+Errors                            0               0
+Unknown protocols                 0
+
+IPv4 Statistics
+
+  Packets Received                   = 32343226
+  Received Header Errors             = 0
+  Received Address Errors            = 29
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 9469
+  Received Packets Delivered         = 32399820
+  Output Requests                    = 8402973
+  Routing Discards                   = 0
+  Discarded Output Packets           = 896
+  Output Packet No Route             = 266
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+IPv6 Statistics
+
+  Packets Received                   = 17953
+  Received Header Errors             = 0
+  Received Address Errors            = 12
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 17
+  Received Packets Delivered         = 32704
+  Output Requests                    = 16811
+  Routing Discards                   = 0
+  Discarded Output Packets           = 0
+  Output Packet No Route             = 0
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+ICMPv4 Statistics
+
+                            Received    Sent
+  Messages                  1179        5337
+  Errors                    0           0
+  Destination Unreachable   568         3496
+  Time Exceeded             473         0
+  Parameter Problems        0           0
+  Source Quenches           0           0
+  Redirects                 0           0
+  Echo Replies              80          58
+  Echos                     58          1783
+  Timestamps                0           0
+  Timestamp Replies         0           0
+  Address Masks             0           0
+  Address Mask Replies      0           0
+  Router Solicitations      0           0
+  Router Advertisements     0           0
+
+ICMPv6 Statistics
+
+                            Received    Sent
+  Messages                  6           242
+  Errors                    0           0
+  Destination Unreachable   0           0
+  Packet Too Big            0           0
+  Time Exceeded             0           0
+  Parameter Problems        0           0
+  Echos                     6           0
+  Echo Replies              0           0
+  MLD Queries               0           0
+  MLD Reports               0           0
+  MLD Dones                 0           0
+  Router Solicitations      0           144
+  Router Advertisements     0           0
+  Neighbor Solicitations    0           49
+  Neighbor Advertisements   0           49
+  Redirects                 0           0
+  Router Renumberings       0           0
+
+TCP Statistics for IPv4
+
+  Active Opens                        = 52602
+  Passive Opens                       = 339
+  Failed Connection Attempts          = 5197
+  Reset Connections                   = 6187
+  Current Connections                 = 13
+  Segments Received                   = 3451404
+  Segments Sent                       = 2753130
+  Segments Retransmitted              = 37042
+
+TCP Statistics for IPv6
+
+  Active Opens                        = 2961
+  Passive Opens                       = 200
+  Failed Connection Attempts          = 2791
+  Reset Connections                   = 203
+  Current Connections                 = 0
+  Segments Received                   = 51988
+  Segments Sent                       = 41256
+  Segments Retransmitted              = 10721
+
+UDP Statistics for IPv4
+
+  Datagrams Received    = 29007629
+  No Ports              = 9010
+  Receive Errors        = 45
+  Datagrams Sent        = 5585722
+
+UDP Statistics for IPv6
+
+  Datagrams Received    = 49825
+  No Ports              = 8
+  Receive Errors        = 9
+  Datagrams Sent        = 1829
+
+
+
+8. netstat -s -p tcp udp
+C:\Windows\system32>netstat -s -p tcp udp
+
+Displays protocol statistics and current TCP/IP network connections.
+
+NETSTAT [-a] [-b] [-e] [-f] [-n] [-o] [-p proto] [-r] [-s] [-t] [-x] [-y] [interval]
+
+  -a            Displays all connections and listening ports.
+  -b            Displays the executable involved in creating each connection or
+                listening port. In some cases well-known executables host
+                multiple independent components, and in these cases the
+                sequence of components involved in creating the connection
+                or listening port is displayed. In this case the executable
+                name is in [] at the bottom, on top is the component it called,
+                and so forth until TCP/IP was reached. Note that this option
+                can be time-consuming and will fail unless you have sufficient
+                permissions.
+  -e            Displays Ethernet statistics. This may be combined with the -s
+                option.
+  -f            Displays Fully Qualified Domain Names (FQDN) for foreign
+                addresses.
+  -n            Displays addresses and port numbers in numerical form.
+  -o            Displays the owning process ID associated with each connection.
+  -p proto      Shows connections for the protocol specified by proto; proto
+                may be any of: TCP, UDP, TCPv6, or UDPv6.  If used with the -s
+                option to display per-protocol statistics, proto may be any of:
+                IP, IPv6, ICMP, ICMPv6, TCP, TCPv6, UDP, or UDPv6.
+  -q            Displays all connections, listening ports, and bound
+                nonlistening TCP ports. Bound nonlistening ports may or may not
+                be associated with an active connection.
+  -r            Displays the routing table.
+  -s            Displays per-protocol statistics.  By default, statistics are
+                shown for IP, IPv6, ICMP, ICMPv6, TCP, TCPv6, UDP, and UDPv6;
+                the -p option may be used to specify a subset of the default.
+  -t            Displays the current connection offload state.
+  -x            Displays NetworkDirect connections, listeners, and shared
+                endpoints.
+  -y            Displays the TCP connection template for all connections.
+                Cannot be combined with the other options.
+  interval      Redisplays selected statistics, pausing interval seconds
+                between each display.  Press CTRL+C to stop redisplaying
+                statistics.  If omitted, netstat will print the current
+                configuration information once.
+
+
+
+
+9. ping
+C:\Windows\system32>ping google.com
+
+Pinging google.com [142.251.12.101] with 32 bytes of data:
+Reply from 142.251.12.101: bytes=32 time=28ms TTL=106
+Reply from 142.251.12.101: bytes=32 time=44ms TTL=106
+Reply from 142.251.12.101: bytes=32 time=27ms TTL=106
+Reply from 142.251.12.101: bytes=32 time=28ms TTL=106
+
+Ping statistics for 142.251.12.101:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 27ms, Maximum = 44ms, Average = 31ms
+
+
+
+10. time
+C:\Windows\system32>time
+The current time is:  0:59:01,81
+Enter the new time:
+
+
+
+11. tasklist
+C:\Windows\system32>tasklist /v /fi "STATUS eq running"
+
+Image Name                     PID Session Name        Session#    Mem Usage Status          User Name                                              CPU Time Window Title
+========================= ======== ================ =========== ============ =============== ================================================== ============ ========================================================================
+csrss.exe                    10728 Console                   30      1.964 K Running         NT AUTHORITY\SYSTEM                                     0:00:37 N/A
+dwm.exe                       6180 Console                   30     24.476 K Running         Window Manager\DWM-30                                   0:11:49 DWM Notification Window
+sihost.exe                     988 Console                   30     14.768 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:18 N/A
+svchost.exe                    692 Console                   30     16.492 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:05 Windows Push Notifications Platform
+ctfmon.exe                    1084 Console                   30      9.404 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:30 N/A
+taskhostw.exe                 8124 Console                   30      7.688 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:01 Task Host Window
+igfxEM.exe                   13192 Console                   30      2.000 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 The Event Manager - Status
+igfxHK.exe                    7628 Console                   30        872 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 HotKey Listener
+igfxTray.exe                 11152 Console                   30      1.996 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 igfxtrayWindow
+explorer.exe                  9816 Console                   30     99.724 K Running         DESKTOP-H27DKQS\DisorderPC                              0:08:04 The Adams Full Album - YouTube
+svchost.exe                    676 Console                   30     14.264 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:01 N/A
+SynTPEnh.exe                  6836 Console                   30      6.900 K Running         DESKTOP-H27DKQS\DisorderPC                              0:05:44 N/A
+StartMenuExperienceHost.e     8268 Console                   30     19.120 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:07 Start
+SynTPHelper.exe               6880 Console                   30        308 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:09 N/A
+SearchApp.exe                 8176 Console                   30     53.912 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:59 Search
+RuntimeBroker.exe             4664 Console                   30     23.408 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:09 N/A
+LockApp.exe                   5796 Console                   30      1.540 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:01 Windows Default Lock Screen
+ShellExperienceHost.exe        236 Console                   30        776 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:21 New notification
+RuntimeBroker.exe            12216 Console                   30      2.948 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:04 N/A
+RuntimeBroker.exe             6696 Console                   30      5.724 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:03 OLEChannelWnd
+RuntimeBroker.exe             6240 Console                   30     11.732 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:09 OleMainThreadWndName
+TextInputHost.exe             2296 Console                   30      9.012 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:05 Microsoft Text Input Application
+SecurityHealthSystray.exe    11676 Console                   30        696 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 N/A
+dllhost.exe                  11824 Console                   30      5.952 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:01 OleMainThreadWndName
+chrome.exe                   13220 Console                   30    168.532 K Running         DESKTOP-H27DKQS\DisorderPC                              0:31:31 tasklist | Microsoft Docs - Google Chrome
+chrome.exe                   11172 Console                   30      1.648 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 N/A
+jucheck.exe                   5388 Console                   30        800 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:01 JavaUpdate SysTray Icon
+SearchApp.exe                12488 Console                   30        296 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 News and interests
+Microsoft.Photos.exe         11664 Console                   30         60 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:04 OleMainThreadWndName
+RuntimeBroker.exe             9232 Console                   30     20.900 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:05 N/A
+FoxitPDFReader.exe            2828 Console                   30     10.044 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:36 KetentuanTesWawancara2022Coding.pdf - Foxit PDF Reader
+dllhost.exe                   2756 Console                   30      7.340 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 OleMainThreadWndName
+msedge.exe                     484 Console                   30    122.084 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:55 The Adams Full Album - YouTube and 1 more page - Profile 1 - Microsoft​
+msedge.exe                   13252 Console                   30      1.280 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 N/A
+msedge.exe                   11196 Console                   30     62.064 K Running         DESKTOP-H27DKQS\DisorderPC                              0:01:35 N/A
+msedge.exe                    7408 Console                   30      8.512 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 OleMainThreadWndName
+taskhostw.exe                12400 Console                   30     15.008 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 Task Host Window
+notepad.exe                  10412 Console                   30     18.464 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:04 *cmdline.txt - Notepad
+YourPhone.exe                 6116 Console                   30      1.476 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 N/A
+smartscreen.exe               7956 Console                   30     23.704 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 OleMainThreadWndName
+cmd.exe                       9752 Console                   30      4.560 K Running         DESKTOP-H27DKQS\DisorderPC                              0:00:00 Administrator: Command Prompt - tasklist  /v /fi "STATUS eq running"
+conhost.exe                  10840 Console                   30     19.488 K Running         DESKTOP-H27DKQS\DisorderPC 
+
+
+
+12. msinfo32 /showcategories
+C:\Windows\system32>msinfo32 /showcategories
+
+
+
+13. nbtstat /n
+C:\Windows\system32>nbtstat /n
+
+Ethernet:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+Bluetooth Network Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+Wi-Fi:
+Node IpAddress: [192.168.1.15] Scope Id: []
+
+                NetBIOS Local Name Table
+
+       Name               Type         Status
+    ---------------------------------------------
+    DESKTOP-H27DKQS<20>  UNIQUE      Registered
+    WORKGROUP      <00>  GROUP       Registered
+    DESKTOP-H27DKQS<00>  UNIQUE      Registered
+
+Local Area Connection* 1:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+Local Area Connection* 10:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+Ethernet 4:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+Ethernet 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+
+
+
+14. nbtstat /c
+C:\Windows\system32>nbtstat /c
+
+Ethernet:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+Bluetooth Network Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+Wi-Fi:
+Node IpAddress: [192.168.1.15] Scope Id: []
+
+    No names in cache
+
+Local Area Connection* 1:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+Local Area Connection* 10:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+Ethernet 4:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+Ethernet 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No names in cache
+
+C:\Windows\system32>
+
+
+15. nbtstat /S 5
+C:\Windows\system32>nbtstat /S 5
+
+Ethernet:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Bluetooth Network Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Wi-Fi:
+Node IpAddress: [192.168.1.15] Scope Id: []
+
+    No Connections
+
+Local Area Connection* 1:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Local Area Connection* 10:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet 4:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Bluetooth Network Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Wi-Fi:
+Node IpAddress: [192.168.1.15] Scope Id: []
+
+    No Connections
+
+Local Area Connection* 1:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Local Area Connection* 10:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet 4:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Bluetooth Network Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Wi-Fi:
+Node IpAddress: [192.168.1.15] Scope Id: []
+
+    No Connections
+
+Local Area Connection* 1:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Local Area Connection* 10:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet 4:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Bluetooth Network Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Wi-Fi:
+Node IpAddress: [192.168.1.15] Scope Id: []
+
+    No Connections
+
+Local Area Connection* 1:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Local Area Connection* 10:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet 4:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Bluetooth Network Connection:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Wi-Fi:
+Node IpAddress: [192.168.1.15] Scope Id: []
+
+    No Connections
+
+Local Area Connection* 1:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Local Area Connection* 10:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet 4:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+Ethernet 2:
+Node IpAddress: [0.0.0.0] Scope Id: []
+
+    No Connections
+
+
+
+16. manage-bde –status C:
+C:\Windows\system32>manage-bde -status C:
+BitLocker Drive Encryption: Configuration Tool version 10.0.19041
+Copyright (C) 2013 Microsoft Corporation. All rights reserved.
+
+Volume C: []
+[OS Volume]
+
+    Size:                 130,71 GB
+    BitLocker Version:    None
+    Conversion Status:    Fully Decrypted
+    Percentage Encrypted: 0,0%
+    Encryption Method:    None
+    Protection Status:    Protection Off
+    Lock Status:          Unlocked
+    Identification Field: None
+    Key Protectors:       None Found
+
+
+
+17. chkdsk
+C:\Windows\system32>chkdsk
+The type of the file system is NTFS.
+
+WARNING!  /F parameter not specified.
+Running CHKDSK in read-only mode.
+
+Stage 1: Examining basic file system structure ...
+  921088 file records processed.
+File verification completed.
+ Phase duration (File record verification): 20.40 seconds.
+  10792 large file records processed.
+ Phase duration (Orphan file record recovery): 0.00 milliseconds.
+  0 bad file records processed.
+ Phase duration (Bad file record checking): 2.32 milliseconds.
+
+Stage 2: Examining file name linkage ...
+  3353 reparse records processed.
+  1273798 index entries processed.
+Index verification completed.
+ Phase duration (Index verification): 54.69 seconds.
+  0 unindexed files scanned.
+ Phase duration (Orphan reconnection): 10.03 seconds.
+  0 unindexed files recovered to lost and found.
+ Phase duration (Orphan recovery to lost and found): 0.92 milliseconds.
+  3353 reparse records processed.
+ Phase duration (Reparse point and Object ID verification): 24.32 milliseconds.
+
+Stage 3: Examining security descriptors ...
+Security descriptor verification completed.
+ Phase duration (Security descriptor verification): 81.98 milliseconds.
+  176356 data files processed.
+ Phase duration (Data attribute verification): 0.54 milliseconds.
+CHKDSK is verifying Usn Journal...
+  35442648 USN bytes processed.
+Usn Journal verification completed.
+ Phase duration (USN journal verification): 270.20 milliseconds.
+
+Windows has scanned the file system and found no problems.
+No further action is required.
+
+ 137059327 KB total disk space.
+  86139596 KB in 577079 files.
+    354248 KB in 176357 indexes.
+         0 KB in bad sectors.
+   1031199 KB in use by the system.
+     65536 KB occupied by the log file.
+  49534284 KB available on disk.
+
+      4096 bytes in each allocation unit.
+  34264831 total allocation units on disk.
+  12383571 allocation units available on disk.
+Total duration: 1.42 minutes (85539 ms).
+
+
+18. assoc .txt
+C:\Windows\system32>assoc .txt
+.txt=txtfile
+
+
+19. arp /a
+Interface: 192.168.1.15 --- 0x12
+  Internet Address      Physical Address      Type
+  192.168.1.1           68-58-11-26-ff-b0     dynamic
+  192.168.1.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+
+
+20. whoami
+C:\Windows\system32>whoami
+desktop-h27dkqs\disorderpc
+
+C:\Windows\system32>
