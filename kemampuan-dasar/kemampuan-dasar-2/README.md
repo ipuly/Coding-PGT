@@ -1,4 +1,4 @@
 # github-guide
-# github-guide
+## github-guide
 
-https://github.com/ipuly/github_guide.git
+[https://github.com/ipuly/github_guide.git]
