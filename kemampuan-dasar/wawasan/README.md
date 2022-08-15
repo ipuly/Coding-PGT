@@ -17,13 +17,13 @@ komersial, dan memenuhi kebutuhan pribadi, yang fungsinya yaitu menerapkan pende
 Agile Development Methods adalah sekelompok metodologi pengembangan perangkat lunak yang didasarkan pada prinsip-prinsip yang sama atau pengembangan sistem jangka pendek yang memerlukan
 adaptasi cepat dari pengembang terhadap perubahan dalam bentuk apapun. 
 #Tujuan Agile Software Development#
-**High-value & working App system**
-**Iterative, incremental, evolutionary**
-**Cost control & value-driven development**
-**High-quality production**
-**Flexible & risk management**
-**Collaboration**
-**Self-organizing, self-managing teams**
+- **High-value & working App system**
+- **Iterative, incremental, evolutionary**
+- **Cost control & value-driven development**
+- **High-quality production**
+- **Flexible & risk management**
+- **Collaboration**
+- **Self-organizing, self-managing teams**
 Agile ini biasa digunakan untuk memenejemen sebuah projek. 
 
 ## **Scrum**
@@ -32,8 +32,8 @@ Salah satu process framework yang termasuk dalam metodologi Agile.
 ## **XP**
 **Extreme Planning** adalah satu dari **pendekatan agile software** development yang paling sering digunakan.
 dan XP ini ada beberapa tahapan yaitu :
-**Perencanaan (Planning)**
-**Desain**
-**Pengkodean (Koding)**
-**Pengujian (Testing)**
+- **Perencanaan (Planning)**
+- **Desain**
+- **Pengkodean (Koding)**
+- **Pengujian (Testing)**
 
