@@ -1,52 +1,39 @@
-# Rangkuman
-## Software Engineering
-Software Enginering adalah sebuah pendekatan yang disusun secara sistematis untuk mengembangkan sebuah perangkat lunak.
-Seorang Software Engineer adalah seseorang yang menerapkan prinsip2 rekayasa perangkat lunak meliputi merancang, mengembangkan, memelihara, menguji, dan mengevaluasi perangkat lunak.
-Sedangkan proses dalam mengembangkan perangkat lunak atau software disebut juga sebagai rekayasa perangkat lunak.
+# **Rangkuman**
 
-### Software Design
-Software design adalah tentang arsitektur, interface, dan karakteristik dari suatu sistem atau perangkat
-Design Software terbagi menjadi 3 yaitu Design Interface, Design Arsitektur, dan Design Detail
+## **Teknologi Informasi**
+Teknologi Informasi secara umum adalah teknologi yang membantu manusia dalam banyak hal seperti halnya membuat, mengubah, menyimpan, dan banyak hal lainnya. TI yaitu apa yang membuat data, 
+informasi atau pengetahuan yang dirasakan dalam format visual dalam bentuk apapun. Penggunaan Teknologi ini banyak digunakan dalam proses Sofware  yang banyak bidang menggunakannya guna
+pembuatan dan pengembangan baik itu bidang pendidikan, sosial maupun kesehatan. 
 
-### Software Maintenance
-adalah sebuah tindakan yang dilakukan untuk menjaga dan memperbaiki jika terjadi suatu kesalahan pada perangkat lunak yang ada.
-Software maintenance meliputi error correction, optimisasi, menghapus fitur yang tidak berguna. berfokus pada pemeliharaan atau maintenance dapat mengurangi biaya dari operasional.
+## **StackExchange Tentang Perbedaan Informatics dengan Computer Science**
+Ilmu Komputer adalah ilmu dasar untuk desain dan penggunaan komputer atau bisa juga studi tentang mengotomatimasi proses algoritmik yang berskala sedangkan informatika adalah sebuah cabang
+dari rekayasa informasi yang keduanya saling bekertarikan satu sama lain yang keduanya sama sama membutuhkan teknologi secara keseluruhan ilmu komputer adalah studi yang menggunakan komputer. 
 
-## Software Configuration Management
-Dalam Software Engineering, SCM adalah sebuah tugas untuk melacak atau mengendalikan semua perubahan yang terjadi pada software. 
-Praktek dalam SCM meliputi Revision Control dan penetapan baseline. jika terjadi sebuah perubahan pada software, SCM dapat menentukan
-"apa, kapan, mengapa, dan siapa" dari perubahan yang terjadi.
-#### Tujuan dari SCM yaitu
+## **Software Development**
+Pengembangan Perangkat Lunak yaitu proses menulis dan mengelola kode sumber, Perangkat lunak bisa dikembangan untuk berbagai tujuan yaitu perangkat lunak kustom, perangkat lunak terbuka atau
+komersial, dan memenuhi kebutuhan pribadi, yang fungsinya yaitu menerapkan pendekatan sistematis secara teknik hingga proses pengembangan software. 
 
-*Mengidentifikasi konfigurasi 
+## **Agile Software Development**
+Agile Development Methods adalah sekelompok metodologi pengembangan perangkat lunak yang didasarkan pada prinsip-prinsip yang sama atau pengembangan sistem jangka pendek yang memerlukan
+adaptasi cepat dari pengembang terhadap perubahan dalam bentuk apapun. 
+#Tujuan Agile Software Development#
+**High-value & working App system**
+**Iterative, incremental, evolutionary**
+**Cost control & value-driven development**
+**High-quality production**
+**Flexible & risk management**
+**Collaboration**
+**Self-organizing, self-managing teams**
+Agile ini biasa digunakan untuk memenejemen sebuah projek. 
 
-*Kontrol Konfigurasi untuk menetapkan proses dari perubahan yang terkontrol
+## **Scrum**
+Salah satu process framework yang termasuk dalam metodologi Agile.
 
-*Merekam dan melaporkan semua informasi yang diperlukan terkait proses pengembangan aplikasi
+## **XP**
+**Extreme Planning** adalah satu dari **pendekatan agile software** development yang paling sering digunakan.
+dan XP ini ada beberapa tahapan yaitu :
+**Perencanaan (Planning)**
+**Desain**
+**Pengkodean (Koding)**
+**Pengujian (Testing)**
 
-*Memastikan bahwa konfigurasi berjalan dengan baik
-
-*mengelola proses dan alat yang digunakan untuk membangun
-
-*Memastikan kepatuhan terhadap proses pengembangan organisasi
-
-## Keterkaitan Antara Control Version dan Distributed Version Control
-Dalam software engineering, Version Control dikenal juga dengan manajemen source code. adalah kelas sistem yang bertanggung jawab untuk mengelola perubahan pada suatu program komputer
-Perubahan biasanya diidentifikasi dengan angka atau kode huruf, yang disebut "nomor revisi", "tingkat revisi", atau hanya "revisi". Misalnya, kumpulan file awal adalah "revisi 1". Ketika perubahan pertama dilakukan, set yang dihasilkan adalah "revisi 2", dan seterusnya. Setiap revisi dikaitkan dengan stempel waktu dan orang yang membuat perubahan. Revisi dapat dibandingkan, dipulihkan, dan, dengan beberapa jenis file, digabungkan
-
-### Distributed Version Control
-Dalam software engineering, Distributed Version Control adalah sebuah bentuk kontrol versi
-dimana source code lengkap itu berada. termasuk pada riwayat lengkapnya. dibandingkan dengan kontrol versi terpusat, kontrol terdistribusi lebih populer di dunia
-Keuntungan dari Kontrol Terdistribusi antara lain
-*Memungkinkan pengguna untuk bekerja secara produktif saat tidak terhubung ke jaringan
-
-*Operasi umum seperti commit, pull request tidak perlu berkomunikasi dengan server
-
-*Mengijinkan pekerjaan pribadi sehingga pengguna dapat menggunakan perubahan mereka bahkan untuk draft awal yang tidak mereka terbitkan
-
-*Mengijinkan berbagai model pengembangan perangkat lunak untuk digunakan
-
-## GIT dan keterkaitannya dengan Distributed Version Control
-Git adalah sebuah perangkat lunak yang bebas terbuka untuk semua kontrol versi terdistribusi. berguna untuk melacak perubahan yang terjadi di dalam sistem.
-biasanya digunakan oleh seorang programmer untuk berkordinasi melakukan pekerjaan secara kolaboratif dalam mengembangkan sourcecode.
-Git ditulis oleh Linus Torvalds pada tahun 2005 untuk mengembangkan kernel linux. Desain Git adalah sintesis dari pengalaman Torvalds dengan Linux dalam memelihara proyek pengembangan terdistribusi besar, bersama dengan pengetahuannya yang mendalam tentang kinerja sistem file yang diperoleh dari proyek yang sama dan kebutuhan mendesak untuk menghasilkan sistem kerja dalam waktu singkat.
